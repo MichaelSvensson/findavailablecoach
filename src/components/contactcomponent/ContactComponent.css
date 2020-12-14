@@ -1,0 +1,21 @@
+.container {
+    background-color: #545454;
+    padding-bottom: 20px;
+    margin: 0px;
+    height: 100vh
+}
+
+.imgContact {
+    width: 250px;
+    height: 250px;
+    border: 0;
+}
+
+.contact-detail {
+    
+}
+
+h4 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,50 @@
+.loggaInContainer {
+    background-color: #545454;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    width: 100%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh
+}
+
+input {
+    margin-left: 20px;
+}
+
+input[type=text]:focus {
+    width: 200px;
+    margin-left: 20px;
+    background-color: #1e73be;
+    color: white;
+}
+
+input[type=password]:focus {
+    width: 200px;
+    margin-left: 20px;
+    background-color: #1e73be;
+    color: white;
+}
+
+button {
+    background-color: #1e73be; 
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    font-size: 14px;
+  }
+
+  span {
+    margin-left: 20px;  
+  }
+
+  .footer {
+      padding-top: 300px;
+  }

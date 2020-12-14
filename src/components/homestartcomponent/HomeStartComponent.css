@@ -1,0 +1,26 @@
+.title {
+    padding-top: 0px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bread1, .bread2 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 40px;
+}
+
+#syfte {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #880015;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: #545454;
+    padding-bottom: 20px;
+    max-width: 375px;
+    margin: 10px;
+}

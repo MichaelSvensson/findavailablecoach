@@ -1,0 +1,61 @@
+.navigationBarWrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: #1E73be;
+    color: white;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logos {
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    width: 99px;
+    height: 75px
+}
+
+.om {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.kontakt {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.loggain {
+    grid-column-start: 9;
+    grid-column-end: 9;
+}
+
+
+.logos, 
+.loggain, 
+.kontakt,
+.om {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 800) {
+    .navigationBarWrapper {
+        background-color: #ff0000;
+    }
+
+    .om {
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+    
+    .kontakt {
+        grid-column-start: 4;
+        grid-column-end: 4;
+    }
+    
+    .loggain {
+        grid-column-start: 4;
+        grid-column-end: 4;
+    }
+}

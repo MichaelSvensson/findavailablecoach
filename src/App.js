@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
+import { Routing } from './routes/Routing'
+import { NavigationBar } from './components/navigationbar/NavigationBar.js'
+import './shared/global/global.css'
 
-const message = 'Welcome';
 function App() {
   return (
-    <div>React utbildning!<br />
-      {message};
-    </div>
+    <Routing>
+      < NavigationBar />
+    </Routing> 
   );
 }
 
